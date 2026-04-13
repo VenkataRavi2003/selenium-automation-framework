@@ -1,43 +1,40 @@
-# Selenium Automation Framework
+# Selenium Cucumber BDD Framework
 
 ## Overview
 
-This project is a scalable automation framework built using Selenium WebDriver with Java.
-
-It is designed to automate web application testing efficiently using industry-standard practices like Page Object Model (POM) and TestNG.
+This project is a Behavior-Driven Development (BDD) automation framework using Selenium WebDriver with Cucumber.
 
 ## Features
 
-* Page Object Model (POM) design pattern
-* TestNG framework for execution
-* Extent Reports for detailed reporting
-* Screenshot capture for failed test cases
-* Logging for debugging and analysis
+* Cucumber BDD with Gherkin syntax
+* Feature files and step definitions
+* Page Object Model (POM)
+* Test execution with TestNG
+* Reusable test steps
 
 ## Tech Stack
 
 * Java
 * Selenium WebDriver
+* Cucumber
 * TestNG
 * Maven
-* Git
 
 ## Project Structure
 
-* src/ → Test scripts and page classes
-* reports/ → Extent reports
-* screenshots/ → Captured failure screenshots
-* logs/ → Execution logs
+* features/ → Gherkin feature files
+* stepdefinitions/ → Step definitions
+* pages/ → Page Object classes
+* runners/ → Test runners
 
 ## How to Run
 
-1. Clone the repository
-2. Import as Maven project
-3. Run TestNG test suite
+1. Clone repository
+2. Run TestRunner class
 
 ## Use Case
 
-Automates end-to-end testing and improves regression testing efficiency.
+Improves collaboration between testers and stakeholders using readable test scenarios.
 
 ## Author
 
